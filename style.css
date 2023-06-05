@@ -110,6 +110,26 @@ section::before {
 #work-3:hover::after {
   content: "Software Engineer";
 }
+
+.contact::before {
+  content: "Contact";
+}
+
+.contact {
+  padding-bottom: 128px;
+}
+
+.contact-form {
+  border: 1px solid black;
+  padding: 64px 32px;
+}
+.form-label {
+  font-weight: 500;
+}
+#inp_message {
+  resize: none;
+}
+
 @keyframes upDown {
   0% {
     transform: translateY(0);
