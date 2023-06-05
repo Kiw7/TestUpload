@@ -1,3 +1,7 @@
+nav {
+  position: fixed;
+}
+
 section {
   padding-top: 128px;
   position: relative;
@@ -123,7 +127,9 @@ section::before {
 .contact {
   padding-bottom: 128px;
 }
-
+.social-name {
+  margin-left: 5px;
+}
 .contact-form {
   border: 1px solid black;
   padding: 64px 32px;
@@ -147,6 +153,20 @@ section::before {
   }
 }
 @media only screen and (max-width: 576px) {
+  .home-content {
+    padding-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .font-home {
+    font-size: 48px !important;
+  }
+
+  .social-name {
+    margin-left: 0;
+  }
   section::before {
     left: 0;
     font-size: 64px;
